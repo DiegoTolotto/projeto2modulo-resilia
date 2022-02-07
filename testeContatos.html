@@ -5,47 +5,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #19123B
+        }
+
+        .container {
+            background-color: orchid; /* cor para teste, trocar a cor depois */
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+        }
+
+        .child1 {
+            background-color: red; /* cor para teste, trocar a cor depois */
+            color: white;
+            text-align: center;
+            margin: 3%;
+            width: 20%;
+            height: 60px;
+        }
+
+        .child2 {
+            background-color: green; /* cor para teste, trocar a cor depois */
+            color: white;
+            text-align: center;
+            margin: 3%;
+            width: 20%;
+            height: 60px;
+        }
+
+        .child3 {
+            background-color: yellow; /* cor para teste, trocar a cor depois */
+            color: white;
+            text-align: center;
+            margin: 3%;
+            width: 20%;
+            height: 60px;
+        }
+
+        .child4 {
+            background-color: blue; /* cor para teste, trocar a cor depois */
+            color: white;
+            text-align: center;
+            margin: 3%;
+            width: 20%;
+            height: 60px;
+        }
+
+        .foto {
+            width: 250px;
+            height: 250px;
+            border-radius: 100%;
+        }
+
+        p {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color:white;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            width: 80%;
+            height: 40px;
+            border-radius: 15px;
+            margin: 2px;
+        }
+    </style>
     <title>Document</title>
 </head>
 
 <body>
 
-    <div class="carousel">
-        <div>
-            <img src="">FOTO DO DIEGO
-            Diego Nunes
+    <div class="container">
+        <div class="child1">
+            <img class="foto" src="fotoJeneffer.jpg"> <!-- foto temporária, apenas para ilustração -->
+            <p>Diego Nunes</p>
             <button><a href="">Linkedin</a></button>
             <button><a href="https://github.com/DiegoTolotto">GitHub</a></button>
-            <button><a href="">E-mail</a></button>
+            <button><a href="">&#64; E-mail</a></button>
             <button><a href="https://api.whatsapp.com/send?phone=5511994962204&text=">WhatsApp</a></button>
-
         </div>
-        <div>
-            <img src="">FOTO DA MARIA
-            Maria Eugênia
+        <div class="child2">
+            <img class="foto" src="fotoJeneffer.jpg"> <!-- foto temporária, apenas para ilustração -->
+            <p>Maria Eugênia</p>
             <button><a href="">Linkedin</a></button>
             <button><a href="https://github.com/marovitch">GitHub</a></button>
-            <button><a href="">E-mail</a></button>
+            <button><a href="">&#64; E-mail</a></button>
             <button><a href="https://api.whatsapp.com/send?phone=5511986460887&text=">WhatsApp</a></button>
 
         </div>
-        <div>
-            <img src="">FOTO DA BRUNA
-            Bruna Leardini
+        <div class="child3">
+            <img class="foto" src="fotoJeneffer.jpg"> <!-- foto temporária, apenas para ilustração -->
+            <p>Bruna Leardini</p>
             <button><a href="https://www.linkedin.com/in/bruna-leardini/">Linkedin</a></button>
             <button><a href="https://github.com/bleardini">GitHub</a></button>
-            <button><a href="">E-mail</a></button>
+            <button><a href="">&#64; E-mail</a></button>
             <button><a href="https://api.whatsapp.com/send?phone=5491150147270&text=">WhatsApp</a></button>
-
         </div>
-        <div>
-            <img src="">FOTO DA JENEFFER
-            Jeneffer Souza
+        <div class="child4">
+            <img class="foto" src="fotoJeneffer.jpg">
+            <p>Jeneffer Souza</p>
             <button><a href="https://www.linkedin.com/in/jeneffer-souza-b409a8226/">Linkedin</a></button>
             <button><a href="https://github.com/JenefferSouza">GitHub</a></button>
-            <button><a href="">E-mail</a></button>
+            <button><a href="">&#64; E-mail</a></button>
             <button><a href="https://api.whatsapp.com/send?phone=5521973378264&text=">WhatsApp</a></button>
-
         </div>
     </div>
 
