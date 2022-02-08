@@ -2,7 +2,7 @@
 
 
 ## Sobre
-  *Projeto de encerramento do módulo 2, onde o objetivo foi criar uma página de vendas com o propósito de praticar o que aprendemos durante as aulas ministradas pelo facilitador Artur Moreira.
+Projeto de encerramento do módulo 2, onde o objetivo foi criar uma página de vendas com o propósito de praticar o que aprendemos durante as aulas ministradas pelo facilitador Artur Moreira.
 
 ## Softwares & Ferramentas utilizadas nesse projeto 📚
 
