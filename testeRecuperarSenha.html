@@ -19,7 +19,7 @@
             cadastrado na sua conta e lhe enviaremos<br>
             um link com as instruções.
         </p>
-        <input type="email" class="form-control" size="50" placeholder="Email Cadastrado"><br>
+        <input type="email" onblur="validacaoEmail(f1.email)" size="50" placeholder="Email Cadastrado">
         <button onclick="emailEnviado()">Enviar</button>
         <a href="">Cancelar</a> <!-- Colocar o link para retornar a aba de login -->
     </div>
