@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 500px;
-    height: 450px;
+    height: 480px;
     text-align: center;
     font-weight: bold;
     margin: auto;
@@ -23,10 +23,31 @@ img {
     height: 150px;
 }
 
+h2 {
+    color: green;
+}
+
 input {
     margin-left: auto;
     margin-right: auto;
     height: 20px;
+}
+
+input:invalid {
+    border-color: crimson;
+    box-shadow: 0px 0px 3px crimson;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus:invalid {
+    box-shadow: none;
+}
+
+span {
+    color: crimson;
 }
 
 ::placeholder {
@@ -39,6 +60,7 @@ button {
     width: 80%;
     height: 40px;
     border-radius: 15px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }

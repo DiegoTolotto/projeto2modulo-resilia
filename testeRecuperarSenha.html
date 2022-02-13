@@ -12,14 +12,15 @@
 <body>
     <div class="container">
         <img src="logo.png" alt="logo na cor amarela, FrontEnders">
-        <h1> </h1>
+        <h2></h2>
         <h3>Esqueceu a senha?</h3>
         <p>
             Para redefinir sua senha, informe o e-mail<br>
             cadastrado na sua conta e lhe enviaremos<br>
             um link com as instruções.
         </p>
-        <input class="msgemail" type="email" onblur="checarEmail()" size="50" placeholder="Email Cadastrado">
+        <input id="email" type="email" onblur="validarEmail()" onfocus="redefinirMsg()" size="50" placeholder="Email Cadastrado">
+        <span id="error-email"></span>
         <button onclick="emailEnviado()">Enviar</button>
         <a href="">Cancelar</a> <!-- Colocar o link para retornar a aba de login -->
     </div>

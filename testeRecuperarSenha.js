@@ -1,12 +1,20 @@
-function checarEmail() {
-    if (document.getElementsByClassName(msgemail).email.value == ""
-        || document.getElementsByClassName(msgemail).email.value.indexOf('@') == -1
-        || document.getElementsByClassName(msgemail).email.value.indexOf('.') == -1) {
-        alert("Por favor, informe um E-MAIL válido!");
-        return false;
+function validarEmail() {
+    var email = document.querySelector('#email');
+    var error = document.querySelector('#error-email');
+
+    if (!email.checkValidity()) {
+        error.innerHTML = "Email invalido";
+    }
+
+}
+
+function redefinirMsg() {
+    var error = document.querySelector('#error-email');
+    if (error.innerHTML == "Email invalido") {
+        error.innerHTML = "";
     }
 }
 
 function emailEnviado() {
-    let botao = document.querySelector("h1").innerText = "E-mail enviado com Sucesso!";
+    let button = document.querySelector("h2").innerText = "E-mail enviado com Sucesso!";
 }
