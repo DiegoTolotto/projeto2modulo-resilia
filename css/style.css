@@ -32,6 +32,64 @@
     border-radius: 50px; 
 }
 
+.informacoes-home {
+    margin-top: 150px;
+
+}
+
+#textarea-primeira-informacao {
+    margin: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.primeira-informacao-home, .terceira-informacao-home {
+    box-sizing: border-box;
+    background-color: rgb(7, 11, 255);
+    color: rgb(255, 255, 255);
+    padding: 20px 0 20px 10px;
+    margin:  100px 30px 100px 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    width: 1000px;
+}
+
+.terceira-informacao-home, .primeira-informaca-home, .segunda-informacao-home {
+    display: inline-block;
+}
+
+.segunda-informacao-home {
+
+    background-color: rgb(10, 53, 133);
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 0 20px 10px;
+    margin: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    width: 1000px;
+}
+
+.conteiner-botoes-primeira-informacao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botoes-primeira-informacao {
+    border-radius: 10px;
+    color: blue;
+    box-shadow: 0 5px 5px 0 black;
+}
+
+.imagens-informacoes-home {
+    margin: 20px;
+}
+
+
 
 footer {
     border-top: 2px solid white; 
