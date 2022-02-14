@@ -1,0 +1,21 @@
+.botoesheader {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(86, 172, 253);
+    padding: 10px;
+}
+
+#botao {
+    margin-right: 4px;
+}
+
+body {
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2124693-abstrato-azul-ondulado-onda-meio-tom-pontos-em-azul-escuro-fundo-e-textura-vetor.jpg);
+   background-size: 100%;
+}
+
+
+
+footer {
+    border-top: 2px solid white; 
+}
