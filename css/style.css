@@ -14,6 +14,10 @@
 
 }
 
+#lista-home {
+    list-style-type: none;
+}
+
 .ma-js-logo {
     display: flex;
     justify-content: center;
@@ -89,6 +93,37 @@
     margin: 20px;
 }
 
+.botao-de-compra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.botaoDeCompraUm, .botaoDeCompraDois, .botaoDeCompraTres {
+    background-color: blue;
+    padding: 40px 20px 20px 20px;
+    margin: 40px;
+    border-radius: 20px;
+    border: 5px solid white;
+    width: 500px;
+    color: rgb(255, 255, 255);
+}
+
+#valor {
+   
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
+    
+}
+
+.circulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
 
 
 footer {
