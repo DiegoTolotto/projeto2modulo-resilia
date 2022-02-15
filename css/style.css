@@ -1,7 +1,7 @@
 .botoesheader {
     display: flex;
     justify-content: center;
-    background-color: rgb(86, 172, 253);
+    background-color: rgb(238, 133, 150);
     padding: 10px;
 }
 
@@ -9,11 +9,140 @@
     margin-right: 4px;
 }
 
-body {
-    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2124693-abstrato-azul-ondulado-onda-meio-tom-pontos-em-azul-escuro-fundo-e-textura-vetor.jpg);
-   background-size: 100%;
+.tab-content {
+    background-color: purple;
+
 }
 
+#lista-home {
+    list-style-type: none;
+}
+
+.ma-js-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+}
+
+.img-beneficios {
+    margin: 0 10px 0 10px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    border-radius: 50px; 
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="rigth"] {
+    transform: translate3d(50px, 0, 0);
+}
+
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.informacoes-home {
+    margin-top: 150px;
+
+}
+
+#textarea-primeira-informacao {
+    margin: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.primeira-informacao-home, .terceira-informacao-home {
+    box-sizing: border-box;
+    background-color: rgb(7, 11, 255);
+    color: rgb(255, 255, 255);
+    padding: 20px 0 20px 10px;
+    margin:  100px 30px 100px 30px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    width: 1000px;
+}
+
+.terceira-informacao-home, .primeira-informaca-home, .segunda-informacao-home {
+    display: inline-block;
+}
+
+.segunda-informacao-home {
+
+    background-color: rgb(10, 53, 133);
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px 0 20px 10px;
+    margin: 30px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 5px solid rgb(255, 255, 255);
+    width: 1000px;
+}
+
+.conteiner-botoes-primeira-informacao {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botoes-primeira-informacao {
+    border-radius: 10px;
+    color: blue;
+    box-shadow: 0 5px 5px 0 black;
+}
+
+.imagens-informacoes-home {
+    margin: 20px;
+}
+
+.botao-de-compra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.botaoDeCompraUm, .botaoDeCompraDois, .botaoDeCompraTres {
+    background-color: blue;
+    padding: 40px 20px 20px 20px;
+    margin: 40px;
+    border-radius: 20px;
+    border: 5px solid white;
+    width: 500px;
+    color: rgb(255, 255, 255);
+}
+
+#valor {
+   
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
+    
+}
+
+.circulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
 
 
 footer {

@@ -29,11 +29,140 @@
   <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
       <header>
+
+        <!-- botoes de cadastro e log in -->
         <div class="botoesheader">
           <button type="button" class="btn btn-outline-primary" id="botao"><a href="../login.html">Login</button>
           <button type="button" class="btn btn-outline-primary">Cadastrar-se</button>
         </div>
-       
+        <!-- botoes de cadastro e log in -->
+
+        <!-- banner da home-->
+        <div class="folder">
+
+          <div id="banner">
+            <p class="ma-js-logo"><img src="./Imgs/cone.png" width="100%"></p>
+          </div>
+          <!-- banner da home-->
+        </div>
+      </header>
+
+
+      <main>
+        <!-- selos de beneficios do produto -->
+        <div class="beneficios" data-anime="left">
+          <img class="img-beneficios" src="./Imgs/1-removebg-preview.png" width="15%">
+          <img class="img-beneficios" src="./Imgs/2-removebg-preview.png" width="15%">
+          <img class="img-beneficios" src="./Imgs/3-removebg-preview.png" width="15%">
+          <img class="img-beneficios" src="./Imgs/4-removebg-preview.png" width="15%">
+        </div>
+        <!-- selos de beneficios do produto -->
+
+        <!-- blocos de informações  -->
+        <div class="informacoes-home">
+          <div  class="primeira-informacao-home" data-anime="rigth">
+            <h2>Montagem</h2>
+  
+            <p>Se você precisar que um codigo seja feito, <br>
+              basta adicionar, faça escolhas e monte uma <br>
+              função com uma array vazia, e um loop de repetição, <br>
+              todos diretamente ligados, com apenas um click. <br>
+            </p>
+
+            
+            <div class="conteiner-botoes-primeira-informacao">
+              <button class="botoes-primeira-informacao" id="fun" type="submit">function</button>
+              <button class="botoes-primeira-informacao" id="debounce" type="submit">Debounce</button>
+              <button class="botoes-primeira-informacao" id="objeto" type="submit">Objeto</button>
+            </div>
+            <div>
+              <textarea id="textarea-primeira-informacao" cols="50" rows="10"></textarea>
+  
+  
+            </div>
+            
+          </div>
+
+
+          <div class="segunda-informacao-home" data-anime="left">
+            <h2>Simplifica</h2>
+
+            <p>Maintenace-js sugere como economizar <br>
+              linhas. Assim que você digita seu codigo,<br>
+              ele te responde com a mesma solução, só que<br>
+              em poucas linhas. Facilitando a manutenção.</p>
+
+            <div><img class="imagens-informacoes-home" src="./Imgs/Sugere.png"></div>
+          </div>
+
+          <div class="terceira-informacao-home" data-anime="rigth">
+            <h2>Corrigi</h2>
+            <p>
+              Maintenace-js indica os erros do seu codigo,<br>
+              e os corrigi de forma automática.
+            </p>
+            <div>
+              <img class="imagens-informacoes-home" src="./Imgs/Corrigi.png">
+            </div>
+          </div>
+        </div>
+        <!-- blocos de informações  -->
+
+        <!-- blocos de compra do produto -->
+        <div class="botao-de-compra" data-anime="left">
+          <div class="botaoDeCompraUm">
+            <ul id="lista-home">
+              <li class="circulo"><img src="./Imgs/circulo1.png" height="50px" width="50px"></li>
+
+              <li>
+                <p>&#x2714;Montagem: permito o uso</p>
+                <p>&#x274C;Simplifica: não é permitido usar</p>
+                <p>&#x274C;Corrigir: não é permitido usar</p>
+              </li>
+
+              <li>
+                <p id="valor">Valor: R$10,90</p>
+              </li>
+              <li><button type="button" class="btn btn-success">Comprar</button></li>
+            </ul>
+          </div>
+
+          <div class="botaoDeCompraDois">
+            <ul id="lista-home">
+              <li class="circulo"><img src="./Imgs/circulo2.png" height="50px" width="50px"></li>
+
+              <li>
+                <p>&#x2714;Montagem: permito o uso</p>
+                <p>&#x2714;Simplifica: permito o uso</p>
+                <p>&#x274C;Corrigir: não é permitido usar</p>
+              </li>
+
+              <li>
+                <p id="valor">Valor: R$15,90</p>
+              </li>
+              <li><button type="button" class="btn btn-success">Comprar</button></li>
+            </ul>
+          </div>
+
+          <div class="botaoDeCompraTres">
+            <ul id="lista-home">
+              <li class="circulo"><img src="./Imgs/circulo3.png" height="50px" width="50px"></li>
+              <li>
+                <p>&#x2714;Montagem: permito o uso</p>
+                <p>&#x2714;Simplifica: permito o uso</p>
+                <p>&#x2714;Corrigir: permito o uso</p>
+              </li>
+
+              <li>
+                <p id="valor">Valor: R$20,90</p>
+              </li>
+              <li><button type="button" class="btn btn-success">Comprar</button></li>
+            </ul>
+
+          </div>
+        </div>
+        <!-- blocos de compra do produto -->
+      </main>
 
     </div>
 
@@ -42,8 +171,7 @@
     <!-- Pagina de compra do produto -->
     <!-- Pagina de compra do produto -->
 
-    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Pagina de compra do
-      produto</div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Pagina de compra do produto</div>
 
     <!-- Pagina de contatos -->
     <!-- Pagina de contatos -->
@@ -51,8 +179,7 @@
     <!-- Pagina de contatos -->
     <!-- Pagina de contatos -->
 
-    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">Pagina de contatos
-    </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">Pagina de contatos</div>
   </div>
 
   <footer>
@@ -64,7 +191,7 @@
         <a class="nav-link" href="#">Compre nosso produto</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Compre nosso produto</a>
+        <a class="nav-link" href="#">Contatos</a>
       </li>
     </ul>
   </footer>
