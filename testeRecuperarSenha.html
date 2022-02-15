@@ -10,20 +10,28 @@
 </head>
 
 <body>
+<!--
+    Preciso terminar de editar o css. E redefinir o css da pagina de contatos
+    Hoje a noite depois da aula vamos agrupar todas as paginas e vamos começar
+    a padronizar os codigos html, css e js.
+-->
+
     <div class="container">
-        <img src="logo.png" alt="logo na cor amarela, FrontEnders">
-        <h2></h2>
-        <h3>Esqueceu a senha?</h3>
-        <p>
-            Para redefinir sua senha, informe o e-mail<br>
-            cadastrado na sua conta e lhe enviaremos<br>
-            um link com as instruções.
-        </p>
-        <input id="email" type="email" onblur="validarEmail()" onfocus="redefinirMsg()" size="50" placeholder="Email Cadastrado">
-        <span id="error-email"></span>
-        <button onclick="emailEnviado()">Enviar</button>
-        <a href="">Cancelar</a> <!-- Colocar o link para retornar a aba de login -->
+        <div class="card py-3 px-2">
+            <h2 class="text-center mb-3 mt-2">Esqueceu a senha?</h2>
+            <p class="text-center mb-3 mt-2">Para redefinir sua senha, informe o e-mail<br>
+                cadastrado na sua conta e lhe enviaremos<br>
+                um link com as instruções.</p>
+            <form class="myform">
+                <div class="form-group"> <input type="email" class="form-control" placeholder="Email Cadastrado"> </div>
+                <div class="form-group mt-3"> <button type="button" class="btn btn-block btn-primary btn-lg"><small><i
+                                class="far fa-user pr-2"></i>Cancelar</small></button> </div>
+                <div class="form-group mt-3"> <button type="button" class="btn btn-block btn-primary btn-lg"><small><i
+                                class="far fa-user pr-2"></i>Enviar E-mail</small></button> </div>
+            </form>
+        </div>
     </div>
+
     <script src="testeRecuperarSenha.js"></script>
 </body>
 
