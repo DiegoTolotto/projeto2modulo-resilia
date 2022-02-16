@@ -127,3 +127,10 @@ input:focus:invalid {
 #error-email {
     color: crimson;
 }
+
+footer {
+    margin-top: 100px;
+    border-top: 1px solid white; 
+    text-align: center;
+    color: white;
+}
