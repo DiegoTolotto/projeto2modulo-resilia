@@ -1,12 +1,17 @@
+document.querySelector(".btn-lg").disabled = true;
+
 function validarEmail() {
     var email = document.querySelector('#email');
     var error = document.querySelector('#error-email');
+    let senha = document.querySelector(".btn-lg");
 
     if (!email.checkValidity()) {
         error.innerHTML = "Email invalido";
+    } else {
+        document.querySelector(".btn-lg").disabled = false;
     }
-
 }
+
 
 function redefinirMsg() {
     var error = document.querySelector('#error-email');
