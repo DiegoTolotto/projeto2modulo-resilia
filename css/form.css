@@ -1,3 +1,7 @@
+body {
+    background-color: #19123B
+}
+
 @media(min-width:600px){
     .form-container-w{
         width:600px;
