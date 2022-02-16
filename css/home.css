@@ -144,3 +144,56 @@ footer {
     text-align: center;
     color: black;
 }
+
+@media screen and (max-width: 700px) {
+    .ma-js-logo {
+        height: 150px
+    }
+
+    .beneficios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-beneficios {
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    .primeira-informacao-home, .segunda-informacao-home {
+        width: 300px;
+        height: 900px;
+    }
+
+    .terceira-informacao-home {
+        width: 300px;
+        height: 700px;
+    }
+
+    .botoes-primeira-informacao {
+        width: 80px;
+        height: 70px;
+        font-size: 15px;
+    }
+
+    #textarea-primeira-informacao {
+        width: 240px;
+        height: 340px;
+    }
+
+    .imagens-informacoes-home {
+        width: 200px;
+        height: 400px;
+    }
+
+    .botao-de-compra {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botaoDeCompraUm, .botaoDeCompraDois, .botaoDeCompraTres {
+        width: 300px;
+    }
+    
+}
