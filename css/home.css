@@ -139,8 +139,8 @@
 
 
 footer {
-    border-top: 2px solid white; 
+    margin-top: 100px;
+    border-top: 1px solid white; 
     text-align: center;
     color: black;
-
 }

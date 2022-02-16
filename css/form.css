@@ -129,6 +129,8 @@ input:focus:invalid {
 }
 
 footer {
+    margin-top: 100px;
+    border-top: 1px solid white; 
     text-align: center;
     color: white;
 }
