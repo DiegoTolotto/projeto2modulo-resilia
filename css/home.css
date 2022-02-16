@@ -50,8 +50,11 @@
 
 .informacoes-home {
     margin-top: 150px;
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 #textarea-primeira-informacao {
     margin: 20px;
