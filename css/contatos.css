@@ -162,3 +162,8 @@ small {
 a {
     text-decoration: none;
 }
+
+footer {
+    text-align: center;
+    color: white;
+}
